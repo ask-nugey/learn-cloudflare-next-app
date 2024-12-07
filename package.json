@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:worker": "wrangler dev --port 8772",
     "build": "next build",
+    "build:worker": "cloudflare",
     "start": "next start",
     "lint": "next lint",
     "deploy": "cloudflare && wrangler deploy",
